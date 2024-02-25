@@ -4,19 +4,17 @@
 
 [![Build Status](https://github.com/PerchunPak/ssps-when-stats/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/PerchunPak/ssps-when-stats/actions?query=workflow%3Atest)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Python support versions badge (from pypi)](https://img.shields.io/pypi/pyversions/ssps-when-stats)](https://www.python.org/downloads/)
 
-This is how project should look like!
-
-## Features
-
-- Free! We don't want any money from you!
-- Add yours!
+See https://discord.com/channels/1138194598292885566/1138210016617320659/1211064344071381022 (https://discord.gg/F8pSXtJPMA).
 
 ## Installing
 
 ```bash
-pip install ssps-when-stats
+docker run -d \
+    --name ssps-when-stats \
+    -e DISCORD_WEBHOOK="https://discord.com/api/webhooks/..." \
+    --restart unless-stopped \
+    perchunpak/ssps-when-stats
 ```
 
 ## Installing for local developing
@@ -47,34 +45,6 @@ If you use Windows, open PowerShell with admin privileges and use:
 ```bash
 poetry install --no-dev
 ```
-
-### Configuration
-
-All configuration happens in `config.yml`, or with enviroment variables.
-
-### If something is not clear
-
-You can always write me!
-
-## Example
-
-```py
-from ssps_when_stats.example import some_function
-
-print(some_function(3, 4))
-# => 7
-```
-
-## Updating
-
-```bash
-pip install -U ssps-when-stats
-```
-
-### For local development
-
-For updating, just re-download repository (do not forget save config),
-if you used `git` for downloading, just run `git pull`.
 
 ## Thanks
 

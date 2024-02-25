@@ -6,7 +6,7 @@
     "cookiecutter": {
       "project_name": "ssps-when-stats",
       "organization": "PerchunPak",
-      "project_description": "This is how project should look like!",
+      "project_description": "",
       "other_languages_support": "n",
       "ukrainian_language_support": "n",
       "russian_language_support": "n",
