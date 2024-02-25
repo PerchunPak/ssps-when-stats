@@ -3,7 +3,6 @@
 [![Support Ukraine](https://badgen.net/badge/support/UKRAINE/?color=0057B8&labelColor=FFD700)](https://www.gov.uk/government/news/ukraine-what-you-can-do-to-help)
 
 [![Build Status](https://github.com/PerchunPak/ssps-when-stats/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/PerchunPak/ssps-when-stats/actions?query=workflow%3Atest)
-[![Documentation Build Status](https://readthedocs.org/projects/ssps-when-stats/badge/?version=latest)](https://ssps-when-stats.readthedocs.io/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Python support versions badge (from pypi)](https://img.shields.io/pypi/pyversions/ssps-when-stats)](https://www.python.org/downloads/)
 
