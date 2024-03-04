@@ -51,6 +51,7 @@ class Config(metaclass=utils.Singleton):
 
     user_id_to_ping: int = 0
     webhook_url: str = "..."
+    interval: int = 60
 
     apykuma: ApykumaConfigSection = dataclasses.field(default_factory=ApykumaConfigSection)
     sentry: SentryConfigSection = dataclasses.field(default_factory=SentryConfigSection)
