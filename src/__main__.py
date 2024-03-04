@@ -2,7 +2,7 @@ import asyncio
 
 from loguru import logger
 
-from src import utils, logic
+from src import logic, utils
 from src.config import Config
 
 

@@ -1,8 +1,8 @@
+import dataclasses
 import json
 
 from src.logic.info import Info
 from src.utils import DATA_DIR
-import dataclasses
 
 
 def from_json(data: str) -> dict[str, Info]:

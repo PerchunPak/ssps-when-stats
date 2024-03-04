@@ -1,7 +1,6 @@
 """File for the main config."""
 import dataclasses
 import enum
-import pathlib
 import typing as t
 
 import omegaconf
