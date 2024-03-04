@@ -3,7 +3,6 @@ name: Test
 on:
   push:
     branches:
-    - master
   pull_request:
 
 concurrency:
@@ -92,7 +91,7 @@ jobs:
         then
           echo "::group::Try to resolve conflicts"
           rm -f poetry.lock.rej poetry.lock
-          git checkout master -- poetry.lock
+          git checkout main -- poetry.lock
           poetry lock --no-update
           echo "::endgroup::"
 
