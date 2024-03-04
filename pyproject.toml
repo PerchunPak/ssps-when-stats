@@ -23,6 +23,8 @@ apykuma = "~1"
 beautifulsoup4 = "~4.12"
 aiohttp = "~3.9"
 
+typing-extensions = "~4.10"
+
 
 [tool.poetry.group.make.dependencies]
 black = "~23"
