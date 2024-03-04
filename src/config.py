@@ -50,6 +50,9 @@ class LoggingSection:
 class Config(metaclass=utils.Singleton):
     """The main config that holds everything in itself."""
 
+    user_id_to_ping: int = 0
+    webhook_url: str = "..."
+
     apykuma: ApykumaConfigSection = dataclasses.field(default_factory=ApykumaConfigSection)
     sentry: SentryConfigSection = dataclasses.field(default_factory=SentryConfigSection)
     logging: LoggingSection = dataclasses.field(default_factory=LoggingSection)

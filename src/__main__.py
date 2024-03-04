@@ -2,7 +2,7 @@ import asyncio
 
 from loguru import logger
 
-from src import utils
+from src import utils, logic
 from src.config import Config
 
 
@@ -13,7 +13,7 @@ async def main() -> None:
     Config()
     utils.start_sentry()
     await utils.start_apykuma()
-    # start app here
+    await logic.start_loop()
 
 
 if __name__ == "__main__":

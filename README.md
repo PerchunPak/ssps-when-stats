@@ -12,6 +12,7 @@ See https://discord.com/channels/1138194598292885566/1138210016617320659/1211064
 ```bash
 docker run -d \
     --name ssps-when-stats \
+    -e USER_ID_TO_PING="379353300887273472" \
     -e DISCORD_WEBHOOK="https://discord.com/api/webhooks/..." \
     --restart unless-stopped \
     perchunpak/ssps-when-stats
