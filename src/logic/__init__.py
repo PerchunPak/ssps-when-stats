@@ -18,7 +18,7 @@ async def start_loop() -> t.Never:  # type: ignore[misc] # Implicit return in fu
 
             if not check_if_changed(info):
                 logger.info("No changes")
-                await asyncio.sleep(1)
+                await asyncio.sleep(config.interval)
                 continue
 
             await send_info(info)
