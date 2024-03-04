@@ -9,7 +9,7 @@ from src.logic.info import get_info
 from src.logic.send_info import send_info
 
 
-async def start_loop() -> t.Never:
+async def start_loop() -> t.Never:  # type: ignore[misc] # Implicit return in function which does not return (on KeyboardInterrupt)
     while True:
         try:
             info = await get_info()
