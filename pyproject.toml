@@ -18,7 +18,7 @@ python = "~3.12"
 
 omegaconf = "~2.3"
 loguru = "~0.7"
-sentry-sdk = "~1.41"
+sentry-sdk = "~1.42"
 apykuma = "~1"
 beautifulsoup4 = "~4.12"
 aiohttp = "~3.9"
